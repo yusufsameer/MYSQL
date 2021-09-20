@@ -1,0 +1,5 @@
+USE sakila;
+
+SELECT *
+FROM actor,film,film_director
+WHERE actor_id = 5
